@@ -19,6 +19,8 @@ body {
 .container {
   width: 1200px;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .list-item {
   list-style-type: none;
@@ -49,6 +51,8 @@ ul {
 .header .container {
   display: flex;
   align-items: center;
+}
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -123,7 +127,7 @@ ul {
 }
 .top-section {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .top-section-container {
   width: 696px;
@@ -238,6 +242,9 @@ ul {
   text-transform: uppercase;
 
   margin-bottom: 10px;
+}
+.features-section {
+  padding-bottom: 0;
 }
 
 .features-section .paragraph {
